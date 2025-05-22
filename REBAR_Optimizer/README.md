@@ -13,8 +13,8 @@ The objective of this project is twofold:
 - Compare its performance against the traditional REINFORCE estimator and the Expectation-Maximization (EM) algorithm, on a benchmark task - the Gaussian Mixture Model (GMM).
 
 🧠 Mathematical Context:  
-We are interested in optimizing the following expectation:
-$$ \mathbb{E}_{b \sim p(b|\theta)}[f(b, \theta)] $$
+We are interested in optimizing the following expectation:  
+$ \mathbb{E}_{b \sim p(b|\theta)}[f(b, \theta)] $
 where:
 
 $b \in \{0, 1\}^K$ is a vector of independent binary random variables,  

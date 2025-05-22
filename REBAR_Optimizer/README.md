@@ -14,14 +14,13 @@ The objective of this project is twofold:
 
 🧠 Mathematical Context:  
 We are interested in optimizing the following expectation:  
-$\mathbb{E}_{b \sim p(b|\theta)}[f(b, \theta)]$
-where:
+$\mathbb{E}_{b \sim p(b|\theta)}[f(b, \theta)]$  
+where:  
+- $b \in \{0, 1\}^K$ is a vector of independent binary random variables,  
 
-$b \in \{0, 1\}^K$ is a vector of independent binary random variables,  
+- $\theta \in \mathbb{R}^K$ parametrizes their Bernoulli distributions,  
 
-$\theta \in \mathbb{R}^K$ parametrizes their Bernoulli distributions,  
-
-$f(b, \theta)$ is a differentiable function of both $b$ and $\theta$.  
+- $f(b, \theta)$ is a differentiable function of both $b$ and $\theta$.  
 
 The challenge:  
 
@@ -30,7 +29,7 @@ The expectation is non-differentiable with respect to $\theta$, due to the discr
 🔁 Traditional Method:  
 The REINFORCE estimator approximates the gradient as:
 
-$$ \nabla_\theta \mathbb{E}_{b}[f(b, \theta)] \approx f(b, \theta) \nabla_\theta \log p(b|\theta) $$  
+$\nabla_\theta \mathbb{E}_{b}[f(b, \theta)] \approx f(b, \theta) \nabla_\theta \log p(b|\theta)$  
 This estimator is unbiased, but often suffers from high variance.
 
 🔧 REBAR Estimator:  

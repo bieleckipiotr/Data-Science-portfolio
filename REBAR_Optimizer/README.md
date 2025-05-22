@@ -28,7 +28,7 @@ The expectation is non-differentiable with respect to $\theta$, due to the discr
 
 🔁 Traditional Method:  
 The REINFORCE estimator approximates the gradient as:  
-$\nabla_\theta \mathbb{E}_{b}[f(b, \theta)] \approx f(b, \theta) \nabla_\theta \log p(b|\theta)$  
+$$\nabla_\theta \mathbb{E}_{b}[f(b, \theta)] \approx f(b, \theta) \nabla_\theta \log p(b|\theta)$$  
 This estimator is unbiased, but often suffers from high variance.
 
 🔧 REBAR Estimator:  
@@ -43,7 +43,7 @@ A control variate based on $f(\tilde{b}, \theta)$,
 to reduce variance while keeping the gradient estimate unbiased.  
 
 The continuous relaxation for binary variables typically uses the Binary Concrete distribution:  
-$$ \tilde{b} = \sigma\left( \frac{1}{\lambda} \left( \log \theta - \log (1 - \theta) + \log u - \log (1 - u) \right) \right), \quad u \sim \text{Uniform}(0,1) $$
+$\tilde{b} = \sigma\left( \frac{1}{\lambda} \left( \log \theta - \log (1 - \theta) + \log u - \log (1 - u) \right) \right), \quad u \sim \text{Uniform}(0,1)$
 This uses the sigmoid function $\sigma(\cdot)$ as a soft approximation of discrete sampling.
 
 📊 Experimental Setup:  

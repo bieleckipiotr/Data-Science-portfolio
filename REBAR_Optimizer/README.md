@@ -3,26 +3,14 @@ REBAR_Optimizer is a Python implementation and mathematical exploration of the R
 
 The REBAR estimator is a variance-reduced, unbiased gradient estimator that combines:
 
-The REINFORCE score-function method,
+The REINFORCE score-function method, a continuous relaxation (Gumbel-softmax), the reparameterization trick, and a control variate correction term.  
 
-A continuous relaxation (Gumbel-softmax),
+📘 Project Objective:  
+The objective of this project is twofold:  
 
-The reparameterization trick, and
+- Implement and derive the REBAR estimator from the original paper.  
 
-A control variate correction term.
-
-📘 Project Objective
-The objective of this project is twofold:
-
-Implement and derive the REBAR estimator from the original paper.
-
-Compare its performance against:
-
-The traditional REINFORCE estimator,
-
-The Expectation-Maximization (EM) algorithm,
-
-On a benchmark task: the Gaussian Mixture Model (GMM).
+- Compare its performance against the traditional REINFORCE estimator and the Expectation-Maximization (EM) algorithm, on a benchmark task - the Gaussian Mixture Model (GMM).
 
 🧠 Mathematical Context:  
 We are interested in optimizing the following expectation:

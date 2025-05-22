@@ -14,22 +14,22 @@ Simple Feature generation to enhance predictive power.
 🤖 Modeling:  
 I experiment with a range of classical ML models:
 
-Linear Regression (as a baseline)
+- Linear Regression (as a baseline)
 
-Support Vector Machines (SVM)
+- Support Vector Machines (SVM)
 
-Decision Tree Classifier
+- Decision Tree Classifier
 
-Random Forest Classifier
+- Random Forest Classifier
 
 📊 Evaluation:  
 Models are evaluated using multiple performance metrics:
 
-Accuracy, Precision, Recall, F1-score
+- Accuracy, Precision, Recall, F1-score
 
-Gini coefficient (as a measure of model purity)
+- Gini coefficient (as a measure of model purity)
 
-ROC-AUC curves and confusion matrices for comprehensive diagnostics
+- ROC-AUC curves and confusion matrices for comprehensive diagnostics
 
 🌈 Model Explainability:  
 To demystify model behavior, I use SHAP (SHapley Additive exPlanations) for local and global interpretability, allowing for a transparent assessment of feature importance and individual predictions.

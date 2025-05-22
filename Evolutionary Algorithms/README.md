@@ -52,3 +52,11 @@ This simulates gravity-driven optimization to pack the circle tighter and fill e
 
 Example of a mutation:  
 ![Example of a mutation](media/ae2_mutate1.png)
+
+
+Some resulting circles:  
+
+![alt text](media/ae2_1200.png)  
+![alt text](media/ae2_800.png)  
+![alt text](media/ae2_1000.png)  
+![alt text](media/ae2_1100.png)

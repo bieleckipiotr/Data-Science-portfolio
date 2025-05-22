@@ -5,11 +5,11 @@ In this project, I perform an end-to-end supervised machine learning pipeline on
 I start with a thorough EDA to uncover patterns, anomalies, and distributions in the dataset. This includes visual and statistical techniques to understand relationships between features and the target variable.
 
 🛠️ Feature Engineering:  
-Applied standard preprocessing techniques including handling missing values, scaling, and transformation.
+- Applied standard preprocessing techniques including handling missing values, scaling, and transformation.
 
-One-hot encoding for categorical features to prepare them for ML models.
+- One-hot encoding for categorical features to prepare them for ML models.
 
-Simple Feature generation to enhance predictive power.
+- Simple Feature generation to enhance predictive power.
 
 🤖 Modeling:  
 I experiment with a range of classical ML models:

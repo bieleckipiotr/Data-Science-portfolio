@@ -27,8 +27,7 @@ The challenge:
 The expectation is non-differentiable with respect to $\theta$, due to the discrete nature of $b$.  
 
 🔁 Traditional Method:  
-The REINFORCE estimator approximates the gradient as:
-
+The REINFORCE estimator approximates the gradient as:  
 $\nabla_\theta \mathbb{E}_{b}[f(b, \theta)] \approx f(b, \theta) \nabla_\theta \log p(b|\theta)$  
 This estimator is unbiased, but often suffers from high variance.
 

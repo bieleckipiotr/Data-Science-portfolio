@@ -17,7 +17,7 @@ We are interested in optimizing the following expectation:
 $$ \mathbb{E}_{b \sim p(b|\theta)}[f(b, \theta)] $$
 where:
 
-$b \in {0, 1}^K$ is a vector of independent binary random variables,  
+$b \in \{0, 1\}^K$ is a vector of independent binary random variables,  
 
 $\theta \in \mathbb{R}^K$ parametrizes their Bernoulli distributions,  
 

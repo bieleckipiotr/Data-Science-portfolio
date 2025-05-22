@@ -1,5 +1,5 @@
 ### 🧮 REBAR_Optimizer  
-REBAR_Optimizer is a Python implementation and mathematical exploration of the REBAR gradient estimator, designed for optimizing expectations over binary(or multiclass) random variables in stochastic computation graphs.
+REBAR_Optimizer is a Python implementation and mathematical exploration of the REBAR gradient estimator, designed for optimizing expectations over binary(or multiclass) random variables.
 
 The REBAR estimator is a variance-reduced, unbiased gradient estimator that combines:
 
